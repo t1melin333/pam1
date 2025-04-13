@@ -4,12 +4,17 @@ import { NavigationContainer } from '@react-navigation/native';
 import Perfil from './component/Perfil';
 import Galeria from './component/Galeria';
 
+import { createStackNavigator } from '@react-navigation/stack';
+
+const Stack = createStackNavigator();
+
 const App = ()=>{
   return (
     <NavigationContainer>
-      <Perfil/>
-      <Galeria/>
-      <StatusBar style="auto" />
+    <Stack.Navigator>
+      <Stack.Screen name="Perfil" component={Perfil} />
+      <Stack.Screen name="Galeria" component={Galeria} />
+    </Stack.Navigator>
     </NavigationContainer>
   );
 }

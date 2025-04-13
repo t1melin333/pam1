@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import styles from './style';
 
 
- const Perfil = ()=>{
+ const Perfil = (props)=>{
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
@@ -21,6 +21,9 @@ import styles from './style';
         <View style={styles.buttonsRow}>
           <TouchableOpacity style={styles.followButton}>
             <Text style={styles.buttonText}>Seguir</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.followButton} onPress = { () => props.navigation.navigate("Galeria") }>
+            <Text style={styles.buttonText}>Galeria</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.searchButton}>
             <Text style={styles.buttonText}>Pesquisar</Text>

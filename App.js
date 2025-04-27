@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import Perfil from './component/Perfil';
-import Galeria from './component/Galeria';
-
+import Pesquisar from './component/Pesquisar';
 import { createStackNavigator } from '@react-navigation/stack';
+import Catalogo from './component/Catalogo';
 
 const Stack = createStackNavigator();
 
@@ -13,7 +13,8 @@ const App = ()=>{
     <NavigationContainer>
     <Stack.Navigator>
       <Stack.Screen name="Perfil" component={Perfil} />
-      <Stack.Screen name="Galeria" component={Galeria} />
+      <Stack.Screen name="Catalogo" component={Catalogo} />
+      <Stack.Screen name="Pesquisar" component={Pesquisar} />
     </Stack.Navigator>
     </NavigationContainer>
   );

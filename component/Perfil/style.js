@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   coverPhoto: {
     width: '100%',
-    height: 200,
+    height: 300,
     resizeMode: 'cover',
   },
   profilePic: {

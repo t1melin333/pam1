@@ -18,9 +18,10 @@ const imageUrls = [
   'https://cdn0.casamentos.com.br/cat/vestidos-festa/chanel/ch-44--mt20_2x_470056.jpg',
   'https://i.pinimg.com/474x/86/b5/5e/86b55ef9905b47a8bcc98244ddb52032.jpg',
   'https://www.chanel.com/images/q_auto:good,f_auto,fl_lossy,dpr_1.1/w_428/-9563347222558.jpg',
-  'https://forbes.com.br/wp-content/uploads/2021/02/GettyImages-56424811-1.jpg',
+  'https://acdn-us.mitiendanube.com/stores/002/823/151/products/bleu-1841d467aa6a2a7a6b17171805457673-1024-1024.jpg',
   'https://images.elle.com.br/2024/10/chanel-verao-2025-%E2%80%93GettyImages-2175856109-768x1153.jpg',
   'https://images.elle.com.br/2023/07/GettyImages-1514059518-560x840.jpg',
+  'https://cdn0.casamentos.com.br/cat/vestidos-festa/chanel/ch-44--mt20_2x_470056.jpg',
 ];
 
 const Catalogo=()=>{
